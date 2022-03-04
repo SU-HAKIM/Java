@@ -11,5 +11,15 @@ public class DataTypes {
         char ch = 'a';
         boolean java = true;
         long lg = 1000000000;
+
+        //Formate specifiers
+        System.out.printf("%b\n",java);
+        System.out.printf("%c\n",ch);
+        System.out.printf("%d\n",num);
+        System.out.printf("%d\n",sh);
+        System.out.printf("%d\n",lg);
+        System.out.printf("%d\n",by);
+        System.out.printf("%.2f\n",fl);
+        System.out.printf("%.2f\n",db);
     }
 }
