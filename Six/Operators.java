@@ -39,6 +39,28 @@ public class Operators {
         // System.out.println(result);
 
         //?Relational Operator
+        /**
+         * >
+         * >=
+         * <
+         * <=
+         * ==
+         * !=
+         */
+        //?Logical Operator
+        /**
+         * && 
+         * ||
+         * !
+         */
+         //* conditional/ternary operator
+            // int num2 = input.nextInt();
+            // int num3 = input.nextInt();
+            // int big;
+            // big=(num2 > num3)? num2 : num3;
+            // System.out.println(big);
 
+            //?Bitwise
+            
     }
 }
