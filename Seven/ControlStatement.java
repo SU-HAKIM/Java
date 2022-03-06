@@ -10,10 +10,10 @@ public class ControlStatement {
         //3.switch
 
         //* if else
-        int num;
-        int num2;
-        Scanner input = new Scanner(System.in);
-        
+        // int num;
+        // int num2;
+        // Scanner input = new Scanner(System.in);
+
         // System.out.println("Enter a Number");
         // num = input.nextInt();
 
@@ -26,23 +26,54 @@ public class ControlStatement {
         // }
 
         //* switch
-        System.out.println("Enter a digit :");
-        System.out.print("= ");
-        num = input.nextInt();
+        // System.out.println("Enter a digit :");
+        // System.out.print("= ");
+        // num = input.nextInt();
 
-        switch (num) {
-            case 0:
-                System.out.println("Zero");
-                break;
-            case 1:
-                System.out.println("One");
-                break;
-            case 2:
-                System.out.println("Two");
-                break;
-            default:
-                System.out.println("Out of range");
-        }
+        // switch (num) {
+        //     case 0:
+        //         System.out.println("Zero");
+        //         break;
+        //     case 1:
+        //         System.out.println("One");
+        //         break;
+        //     case 2:
+        //         System.out.println("Two");
+        //         break;
+        //     default:
+        //         System.out.println("Out of range");
+        // }
+        //?Loop
+        int i;
 
+        // for (i = 1; i <= 10; i++) {
+        //     System.out.println(i+"Hakim");
+        // }
+
+        // while(i<=10){
+        //     System.out.println("Hakim");
+        //     i++;
+        // }
+
+        // do{
+        //     System.out.println("Hakim");
+        //     i++;
+        // } while (i <= 10);
+
+        //*Jump statement
+
+        // for (i = 1; i <= 10; i++) {
+        //     if (i == 4) {
+        //         continue;
+        //     }
+        //     System.out.println(i);
+        // }
+        
+        // for(i=1;i<=10;i++){
+        //     if (i == 4) {
+        //         break;
+        //     }
+        //     System.out.println(i);
+        // }
     }
 }
