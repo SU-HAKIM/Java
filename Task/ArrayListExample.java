@@ -29,5 +29,12 @@ public class ArrayListExample {
         while (itr.hasNext()) {
             System.out.println(itr.next());
         }
+
+        //Removing Items
+        number.remove(2);
+        System.out.println(number);
+        number.removeAll(number);
+        System.out.println(number);
+
     }
 }
