@@ -17,6 +17,7 @@ public class ArrayListExample {
         number.add(40);
         number.add(2, 100);
         System.out.println(number.size());
+        System.out.println(number);//Array list is printable like this but Array is not
 
         for (int x : number) {
             System.out.println(x);
