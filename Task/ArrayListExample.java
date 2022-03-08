@@ -1,6 +1,7 @@
 package Task;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 //While Array is fixed sized,ArrayList is Dynamic Sized
 //for each loo , iterator
@@ -21,6 +22,12 @@ public class ArrayListExample {
 
         for (int x : number) {
             System.out.println(x);
+        }
+
+        Iterator itr = number.iterator();
+
+        while (itr.hasNext()) {
+            System.out.println(itr.next());
         }
     }
 }
