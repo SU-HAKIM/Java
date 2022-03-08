@@ -49,5 +49,16 @@ public class ArrayListExample {
         number.set(3, 50);
         // System.err.println(number);
         //* System.err.println(number.get(3));
+        
+        ArrayList<Integer> number2 = new ArrayList<Integer>();
+        
+        number2.add(1);
+        number2.add(2);
+        number2.add(2);
+        
+        //* System.out.println(number.equals(number2));
+        number.addAll(number2);
+        // System.out.println(number);
+
     }
 }
