@@ -60,6 +60,11 @@ public class StringTest {
         sr.setLength(4);
         // System.err.println(sr);//Main string changed
         //?way Three
-
+        StringBuilder str = new StringBuilder("Hakim");//same as StringBuffer changeable
+        str.append(123);
+        str.reverse();
+        str.delete(0, 3);
+        str.reverse();
+        System.out.println(str);
     }
 }
