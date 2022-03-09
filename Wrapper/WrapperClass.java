@@ -19,7 +19,32 @@ public class WrapperClass {
 
         double d2 = d1.doubleValue();//UnBoxing.intValue for UnBoxing to int
 
-        System.out.println(d2);
+        // System.out.println(d2);
+
+        //?primitive string autoBoxing
+
+
+        double d = 10.2;
+        boolean b = true;
+
+        // String j = Double.toString(d);
+        // String j = Integer.toString(x);
+        String j = Boolean.toString(b);
+
+        // System.out.println(j);
+
+        //?primitive string unboxing
+
+        String s = "32";
+        // int n = Integer.parseInt(s);
+        double n = Double.parseDouble(s);
+        System.out.println(n);
+
+        int m = Integer.valueOf(s);
+        double m2 = Double.valueOf(s);
+
+        System.out.println(m);
+        System.out.println(m2);
 
 
     
