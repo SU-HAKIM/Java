@@ -14,9 +14,10 @@ public class WrapperClass {
         // System.out.println(r);
 
         Double d1 = 10.4;//AutoBoxing
+        
 
         // System.out.println(d1);
-
+        int r2 = r.intValue();
         double d2 = d1.doubleValue();//UnBoxing.intValue for UnBoxing to int
 
         // System.out.println(d2);
@@ -27,8 +28,8 @@ public class WrapperClass {
         double d = 10.2;
         boolean b = true;
 
-        // String j = Double.toString(d);
-        // String j = Integer.toString(x);
+        //* String j = Double.toString(d);
+        //* String j = Integer.toString(x);
         String j = Boolean.toString(b);
 
         // System.out.println(j);
@@ -36,15 +37,17 @@ public class WrapperClass {
         //?primitive string unboxing
 
         String s = "32";
-        // int n = Integer.parseInt(s);
+        //1.
+        //* int n = Integer.parseInt(s);
         double n = Double.parseDouble(s);
         System.out.println(n);
 
+        //2.
         int m = Integer.valueOf(s);
         double m2 = Double.valueOf(s);
 
-        System.out.println(m);
-        System.out.println(m2);
+        // System.out.println(m);
+        // System.out.println(m2);
 
 
     
