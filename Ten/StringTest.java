@@ -35,13 +35,31 @@ public class StringTest {
             // System.out.println(x);
         }
 
-        //?way Two
-        String bd = "       Bangladesh is my country          ";
+        String bd = "Bangladesh is my country";
 
-        System.out.println(bd.charAt(0));
-        System.out.println(bd.codePointAt(0));//Asci Code
-        System.out.println(bd.indexOf("is")); 
-        System.out.println(bd.lastIndexOf("s")); 
-        System.out.println(bd.trim()); 
+        // System.out.println(bd.charAt(0));
+        // System.out.println(bd.codePointAt(0));//Asci Code
+        // System.out.println(bd.indexOf("is")); 
+        // System.out.println(bd.lastIndexOf("s")); 
+        // System.out.println(bd.trim()); 
+
+        // System.out.println(bd.replace("my", "our"));
+        String[] words = bd.split(" ");
+
+        for (String x : words) {
+            // System.out.println(x);
+        }
+
+        //?way Two
+        StringBuffer sr = new StringBuffer("Hakim");
+        //main string created by StringBuffer can be changed.replace kind of methods method can change main string.
+
+        //* System.out.println(sr.append(12));
+        //* System.out.println(sr.reverse());
+        //* System.out.println(sr.delete(0, 2));
+        sr.setLength(4);
+        // System.err.println(sr);//Main string changed
+        //?way Three
+
     }
 }
