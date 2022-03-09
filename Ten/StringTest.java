@@ -21,13 +21,27 @@ public class StringTest {
 
         //* System.out.println(s1.isEmpty());
 
-        //?way Two
         // String concatenated = s1 + s2;
         String concatenated = s1.concat(s2);
         String UpperName = concatenated.toUpperCase();
         String LowerName = concatenated.toLowerCase();
-        System.out.println(LowerName);
-        System.out.println(LowerName.startsWith("sadi"));
-        System.out.println(LowerName.endsWith("im"));
+        // System.out.println(LowerName);
+        // System.out.println(LowerName.startsWith("sadi"));
+        // System.out.println(LowerName.endsWith("im"));
+
+        String[] names = { "Hakim", "Antor", "Jim", "Ashikur" };
+        // System.out.println(names);Not printable
+        for (String x : names) {
+            // System.out.println(x);
+        }
+
+        //?way Two
+        String bd = "       Bangladesh is my country          ";
+
+        System.out.println(bd.charAt(0));
+        System.out.println(bd.codePointAt(0));//Asci Code
+        System.out.println(bd.indexOf("is")); 
+        System.out.println(bd.lastIndexOf("s")); 
+        System.out.println(bd.trim()); 
     }
 }
