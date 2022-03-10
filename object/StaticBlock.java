@@ -12,6 +12,7 @@ public class StaticBlock {
 
     void setName(){
         String name;//*Local variable.Scoped.
+        // static int value = 12;//? Static variables can be declared as local variable
     }
 
     static void displayInfo() {
