@@ -5,15 +5,15 @@ public class Test {
         Teacher t1 = new Teacher();
         Teacher t2 = new Teacher();
 
-        t1.name = "Hakim";
-        t1.gender = "Male";
-        t1.email = "bmsuhakim@gmail.com";
+        t1.setInfo("Hakim", "bmsuhakim@gmail.com", "Male");
 
-        t2.name = "Sadiul Hakim";
-        t2.gender = "Male";
-        t2.email = "sadiulhakim@gmail.com";
+
+        t2.setInfo("Sadiul Hakim", "sadiulhakim@gmail.com", "Male");
 
         t2.displayInfo();
+        System.out.println();
+
+        t1.displayInfo();
     }
 
     
