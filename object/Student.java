@@ -5,7 +5,9 @@ public class Student {
     int id;
     static String universityName = "LU";
 
-    int count = 0;
+   // int count = 0;//?Always starts from 0
+
+    static int count = 0;//?Continue incrementing
 
     Student(String _name,int _id){
         name=_name;
@@ -16,7 +18,7 @@ public class Student {
     void displayInformation() {
         System.out.println("Name : " + name);
         System.out.println("Id : " + id);
-        System.out.println("Unversity Name : " + universityName);
+        System.out.println("University Name : " + universityName);
     }
     
     void showCount() {
