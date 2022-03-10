@@ -2,9 +2,8 @@ package object;
 
 public class Test {
     public static void main(String[] args) {
-        Util u1 = new Util();
-
-        System.out.println(u1.rand());
+        System.out.println(StaticBlock.name);
+        System.out.println(StaticBlock.age);
     }
 
     

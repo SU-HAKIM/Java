@@ -3,7 +3,7 @@ package object;
 public class Student {
     String name;
     int id;
-    static String universityName = "LU";
+    static String universityName = "LU";//do not take extra space
 
    // int count = 0;//?Always starts from 0
 
@@ -21,7 +21,11 @@ public class Student {
         System.out.println("University Name : " + universityName);
     }
     
-    void showCount() {
+    static void showCount() {
+        //1.static methods can not use non-static member
+        //2.'this and super' keyword can not be used in static methods
         System.out.println(count);
     }
+
+   
 }
