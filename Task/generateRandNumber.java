@@ -15,6 +15,6 @@ public class generateRandNumber {
 
         int randomNumber = rand.nextInt(100);
 
-        System.out.println(randomNumber);
+        // System.out.println(randomNumber);
     }
 }
