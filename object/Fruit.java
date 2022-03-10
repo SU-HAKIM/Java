@@ -6,10 +6,14 @@ public class Fruit {
     int price;
     String color;
 
-    Fruit(String _name, int _price, String _color) {
+    Fruit(String _name, int _price, String _color) {//?Constructor
         name = _name;
         price = _price;
         color = _color;
+    }
+
+    Fruit() {
+        System.out.println("No Value");//?Possible
     }
     
     void printInfo() {
@@ -18,5 +22,5 @@ public class Fruit {
         System.out.println("Price : " + price);
     }
     
-    
+
 }
