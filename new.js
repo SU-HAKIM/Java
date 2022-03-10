@@ -1,15 +1,10 @@
 class New {
-    static new() {
-        console.log("new")
-    }
-
-    newNew() {
-
-    }
+    name = "hakim";
 }
 
-let n1 = new New();
+New.prototype.age = 17;
 
-n1.newNew()
+class OtherNew extends New {
+    gender = "Male";
+}
 
-New.new()

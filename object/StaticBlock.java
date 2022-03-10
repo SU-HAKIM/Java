@@ -1,12 +1,17 @@
 package object;
 
 public class StaticBlock {
-    static String name;
-    static int age;
+    String role = "Programmer";//*Instance variable
+    static String name;//*static variable
+    static int age;//*static variable
 
     static {
         name = "Hakim";
         age = 17;
+    }
+
+    void setName(){
+        String name;//*Local variable.Scoped.
     }
 
     static void displayInfo() {
